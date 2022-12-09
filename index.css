@@ -1,0 +1,348 @@
+
+.navbar{
+    background-color: #252A30;
+}
+.nav-item{
+    margin: 2px;
+}
+.nav-link{
+    color: white !important;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px !important;
+    padding: 5px !important;
+    padding-bottom: 0px !important;
+}
+.nav-link:hover{
+    color: #0075FF !important;
+}
+
+
+.navbar-toggler-icon{
+    background-color: white !important;
+}
+
+.titreMenu{
+    background-color: #252A30;
+    color: white;
+    margin-top: -15px;
+    width: 300px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: Poppins;
+}
+hr{
+    height: 8px;
+
+    background-color: black !important;
+    opacity: 1 !important;
+}
+.separateur{
+    padding: 30px;
+}
+
+.nav-pills{
+    margin-left: 50px;
+}
+.nav-pills .nav-link.active {
+    background-color: inherit !important;
+    border-bottom: 2px solid #0075FF !important ;
+    color: #0075FF !important;
+}
+/************************** SCROLL VERS LE HAUT *************************/
+#btnscrolhaut {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #252A30; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0px; /* Some padding */
+    /*border-radius: 10px;  Rounded corners */
+    font-size: 30px; /* Increase font size */
+}
+
+#btnscrolhaut:hover {
+    background-color: #0075FF; /* Add a dark-grey background on hover */
+}
+
+
+
+/***************************** CSS APPLIQUER A L'ACCUEIL ***********************************************/
+.accueilbody{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 22px;
+    color: #000000;
+}
+.accueilTitre, .contenuApropos, .descriptionportfolio, .infonContact, .descriptioncompetence{
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.accueil{
+    box-sizing: border-box;
+    width: 557px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #000000;
+    border-radius: 0px !important;
+}
+
+
+.imageContent{
+
+    width: 450px;
+    height: 450px;
+    border-radius: 0px 0px 0px 133px;
+    object-fit: cover;
+    background-color: #363C48;
+    /*background: url(image/image1.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    box-shadow: 20px -20px 2px #D9D9D9;
+}
+.hr{
+    margin-top: 0px;
+    width: 50%;
+}
+
+
+
+/*CSS APROPOS */
+.imageContentapropos{
+    width: 300px;
+    height: 308px;
+    background: url(image/image1.jpg);
+    border-radius: 0px 0px 133px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenuApropos{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 150px 0px;
+}
+
+
+/*CONTENU COMPETENCE*/
+.bg-info1{
+    background-color: #0075FF !important;
+}
+.buttonTelecharger{
+    box-sizing: border-box;
+    width: 200px;
+    height: 40px;
+    background: #363C48;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    color: white;
+}
+
+.contenuCompetence{
+
+    padding: 10px;
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.back, .front, .cms, .divers{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px;
+    /* identical to box height */
+    color: #000000;
+    text-transform: uppercase !important;
+}
+.contentBack, .contentFront, .contentCMS, .contentDIVERS{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px;
+    /* identical to box height */
+    color: #000000;
+    text-transform: uppercase !important;
+}
+
+.col1competence{
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    padding: 5px;
+}
+
+.col2competence{
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    padding: 5px;
+    image-rendering: smooth;
+}
+
+/***************************** CONTENU PORTFOLIO ****************************/
+.portfolioContent{
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    background: rgba(217, 217, 217, 0.2);
+    border: 1px solid #000000;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    /*border-radius: 0px 0px 0px 145px;*/
+
+}
+.card-title1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 20px;
+    /* identical to box height */
+    color: #000000;
+}
+.card-text1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.card1{
+    height: 400px !important;
+    margin-bottom: 15px;
+}
+
+#afficherplus {
+    display: none;
+}
+
+.card-img-top{
+    height: 200px;
+    background-size : contain;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: black !important;
+}
+
+/**************** PARTIE CONTACT *******************************/
+.blockprincipal{
+    border: 1px solid #000000;
+
+    background-color: white;
+}
+
+.fb {
+    background-color: #0075FF;
+    color: white;
+    opacity: 0.2;
+}
+
+.twitter {
+    background-color: #252A30;
+    color: white;
+    opacity: 0.2;
+
+}
+
+.google {
+    background-color: #363C48;
+    color: white;
+    opacity: 0.2;
+}
+.github{
+    background-color: #252A30;
+    color: white;
+    opacity: 0.2;
+}
+.linkedin{
+    background-color: #0075FF;
+    color: white;
+    opacity: 0.2;
+}
+.telephone{
+    background-color: #363C48;
+    color: white;
+    opacity: 0.2;
+}
+
+.btn1 {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px;
+    ;
+}
+.btn1:hover {
+    opacity: 1;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px;
+    /* identical to box height */
+    color: #000000 !important;
+}
+
+.contactContent{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.contactForm{
+    margin-top: 5px;
+}
+label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 18px;
+    /* identical to box height */
+    color: #000000;
+}
+input, textarea{
+    border-radius: 0px !important;
+    border: 0px !important;
+    border-bottom: 1px  solid black !important;
+    box-shadow: 1px 1px 2px #918f8f;
+}
+

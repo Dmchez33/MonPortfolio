@@ -2,7 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Mon PortFolio</title>
+    <!--ICON DU SITE-->
+    <link rel="icon" href="image/logo1.png">
+    <!--INDEXATION DU PAGE CSS-->
     <link rel="stylesheet" href="index.css">
     <!-- GOOGLE CONSOLE REFERENCEMENT -->
     <meta name="google-site-verification" content="gqAk-_tIi_P4UxoFspzq2r5eWynPEJeOcRHqqAjY8nM"/>
@@ -63,7 +66,7 @@
 <div onclick="topFunction()" id="btnscrolhaut" title="Aller vers le haut"><i class="bi bi-chevron-up"></i></div>
 
 <!-- SECTION ACCUEIL -->
-<div data-bs-spy="scroll" data-bs-target="#navbar-example2"
+<div class="contentBody" data-bs-spy="scroll" data-bs-target="#navbar-example2"
      data-bs-smooth-scroll="true" tabindex="0">
 
 
@@ -81,10 +84,10 @@
 
             </div>
             <div class="col">
-                <div class="card accueil">
+                <div class="card accueil mt-3">
                     <div class="card-body ">
                         <h5 class="card-title accueilTitre">Salut tout le monde</h5>
-                        <p class="card-text accueilbody">Je suis DEMBELE Idrissa développeur fullstack junior et
+                        <p class="card-text accueilbody">Je suis <span class="nomColor">DEMBELE Idrissa</span> développeur fullstack junior et
                             détenteur
                             d'une
                             licence en Informatique et Télécommunication.
@@ -557,10 +560,14 @@
         </div>
     </div>
 </div>
+<!--contenu du section SEPARATEUR de moi-->
+<div class="separateur">
+
+</div>
 
 <!-- FOOTER PARTIE -->
 <div class="footer">
-    <p>Footer</p>
+    <p class="p-4">© Copyright 2022 - Idrissa DEMBELE. Tous droits réservés.</p>
 </div>
 
 <script src="index.js">

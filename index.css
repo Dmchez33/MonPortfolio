@@ -151,14 +151,27 @@ hr{
     background-color: #0075FF !important;
 }
 .buttonTelecharger{
-    box-sizing: border-box;
-    width: 200px;
-    height: 40px;
-    background: #363C48;
+    background: #363C48 !important;
     border: 1px solid #000000;
     box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.4);
-    border-radius: 15px;
-    color: white;
+    color: white !important;
+    transition: 0.4s;
+}
+.lientelecharcher{
+    text-decoration: none!important;
+    color: white !important;
+}
+.lientelecharcher:hover{
+    text-decoration: none;
+    color: #363C48 !important;
+}
+
+.buttonTelecharger:hover{
+    background: white !important;
+    border: 1px solid #000000 !important;
+    box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.4);
+    color: #363C48 !important;
+
 }
 
 .contenuCompetence{

@@ -16,7 +16,10 @@
     })
 
 })()
-
+function alertBox() {
+    el = document.getElementById("example");
+    el.style.visibility = el.style.visibility == "visible" ? "hidden" : "visible";
+}
 function sendMail(){
     var params = {
         nom: document.getElementById("nom").value,
@@ -35,14 +38,16 @@ function sendMail(){
             document.getElementById("objet").value = "";
             document.getElementById("message").value = "";
             console.log(res);
-            alert("Votre message a été envoyez avec success!!")
+            alertBox();
 
         })
         .catch(err=>console.log(err));
 
 }
 
-function myFunction() {
+
+
+/*function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("afficherplus");
     var btnText = document.getElementById("myBtn");
@@ -56,12 +61,12 @@ function myFunction() {
         btnText.innerHTML = "Voir moins";
         moreText.style.display = "inline";
     }
-}
+}*/
 
 
 
 
-// Recupére le boutton
+/*// Recupére le boutton
 let mybutton = document.getElementById("btnscrolhaut");
 
 // Lorsque l'utilisateur fait défiler vers le bas 20 pixels à partir du haut du document, affichez le bouton
@@ -79,5 +84,5 @@ function scrollFunction() {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-}
+}*/
 

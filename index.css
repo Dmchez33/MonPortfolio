@@ -1,4 +1,186 @@
+/**********************STYLE A tout le contenu ******************************/
 
+body{
+
+    background-color: #252A30 !important;
+    font-family: Poppins !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px !important;
+    color: white !important;
+
+}
+.row{
+    margin: 0px !important;
+}
+.separateur{
+    padding: 15px;
+}
+/**********************STYLE APPLIQUER AU MENU ******************************/
+.navbar{
+    background-color: #252A30;
+    border-radius: 2px !important;
+    border-bottom: 2px solid black;
+
+
+}
+.nav-item{
+    margin-right: 25px;
+}
+.nav-link{
+    color: white !important;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px !important;
+    padding: 5px !important;
+    padding-bottom: 0px !important;
+
+}
+
+.nav-link:hover{
+
+    color: #0075FF !important;
+    border-bottom-width: 1px !important;
+    border-bottom-style:solid !important;
+    border-bottom-color: #0075FF !important;
+    transition: 4ms !important;
+
+}
+.navbar-toggler{
+    color: white !important;
+    font-size: 40px !important;
+}
+
+.nav-link.active {
+    background-color: inherit !important;
+    border-bottom: 2px solid #0075FF !important ;
+    color: #0075FF !important;
+}
+/*********************ACCUEIL**********************************/
+.imageProfil{
+    width: 300px !important;
+    box-shadow: inset 0px 0px 10px #000000 !important;
+    border: 8px solid rgba(0,0,0, 0.3) !important;
+}
+.bntdownloadcv{
+    box-shadow: inset 0px 0px 30px #252A30 !important;
+    border: 3px solid rgba(0,0,0, 0.3) !important;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #252A30;
+    color: #0075FF !important;
+}
+.bntdownloadcv:hover{
+    background: white !important;
+    color: #363C48 !important;
+
+}
+.icon{
+    text-decoration: none !important;
+    box-shadow: 0px 0px 2px #000000 !important;
+    border: 1px solid rgba(0,0,0, 0.3) !important;
+    padding: 5px;
+    color: white !important;
+}
+
+.lientelecharcher{
+    text-decoration: none!important;
+    color: #0075FF !important;
+}
+
+
+/*************************** MES COMPETENCES ****************************/
+.progress{
+    background-color: #252A30 !important;
+    border: 5px solid rgba(0,0,0, 0.3) !important;
+    box-shadow: 0px 0px 1px rgba(0,0,0, 0.5) !important;
+    height: 15px !important;
+    border-radius: 15px !important;
+}
+.progress-bar{
+    background-color: gray !important;
+    border-radius: 15px !important;
+}
+.competencecontent{
+    font-size: 14px !important;
+    margin-left: 5px !important;
+}
+/*************************** MON PROFIL ****************************/
+
+.card-img-top{
+    width: 100%;
+    height: 300px;
+    background-size : contain;
+    border: 5px solid rgba(0,0,0, 0.3) !important;
+    box-shadow: inset 0px 0px 1px rgba(0,0,0, 0.5) !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: black !important;
+}
+
+/****************************CONTACT*******************************************/
+.contactContent{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.contactForm{
+    margin-top: 5px;
+}
+label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 16px;
+    color: white; !important;
+}
+input, textarea{
+    color: white !important;
+    background-color: #252A30 !important;
+    border-radius: 15px !important;
+    outline: none !important;
+    border: 0px !important;
+    border-bottom: 1px  solid black !important;
+    box-shadow: 0px 0px 2px #918f8f;
+}
+.iconTest{
+    font-size: 16px;
+}
+/************************ ALERTE BOUTTON **************************************/
+#example {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+#example div {
+    width: 350px;
+    height: 80px;
+    margin: 100px auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border: 3px solid #cccccc;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+/*
 .navbar{
     background-color: #252A30;
 }
@@ -55,28 +237,28 @@ hr{
 .contentBody{
     margin: 5px;
 }
-/************************** SCROLL VERS LE HAUT *************************/
+!************************** SCROLL VERS LE HAUT *************************!
 #btnscrolhaut {
-    display: none; /* pour cacher le boutton par defaut */
-    position: fixed; /* pour fixer le positionnement du boutton */
-    bottom: 20px; /* Pour placer le boutton en bas du page */
-    right: 30px; /* Pour placer le boutton à 30px vers la droit */
-    z-index: 99; /* Assurez-vous qu'il ne se chevauche pas */
-    border: none; /* Pour supprimer la bordure */
-    outline: none; /* pour supprimer la bordure outline */
-    background-color: #252A30; /* couleur du font du boutton */
-    color: white; /* Couleur du text du boutton */
-    cursor: pointer; /* Ajouter un pointeur de souris au survol */
-    font-size: 35px; /* Increase font size */
+    display: none; !* pour cacher le boutton par defaut *!
+    position: fixed; !* pour fixer le positionnement du boutton *!
+    bottom: 20px; !* Pour placer le boutton en bas du page *!
+    right: 30px; !* Pour placer le boutton à 30px vers la droit *!
+    z-index: 99; !* Assurez-vous qu'il ne se chevauche pas *!
+    border: none; !* Pour supprimer la bordure *!
+    outline: none; !* pour supprimer la bordure outline *!
+    background-color: #252A30; !* couleur du font du boutton *!
+    color: white; !* Couleur du text du boutton *!
+    cursor: pointer; !* Ajouter un pointeur de souris au survol *!
+    font-size: 35px; !* Increase font size *!
 }
 
 #btnscrolhaut:hover {
-    background-color: #0075FF; /* Add a dark-grey background on hover */
+    background-color: #0075FF; !* Add a dark-grey background on hover *!
 }
 
 
 
-/***************************** CSS APPLIQUER A L'ACCUEIL ***********************************************/
+!***************************** CSS APPLIQUER A L'ACCUEIL ***********************************************!
 .nomColor{
     color: #0075FF !important;
     font-weight: 600;
@@ -93,7 +275,7 @@ hr{
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    /* identical to box height */
+    !* identical to box height *!
     color: #000000;
 }
 
@@ -122,7 +304,7 @@ hr{
 
 
 
-/*CSS APROPOS */
+!*CSS APROPOS *!
 .contenuApropos{
     padding-left: 50px;
     padding-right: 50px;
@@ -136,7 +318,7 @@ hr{
 }
 
 
-/*CONTENU COMPETENCE*/
+!*CONTENU COMPETENCE*!
 .bg-info1{
     background-color: #0075FF !important;
 }
@@ -177,7 +359,7 @@ hr{
     font-style: normal;
     font-weight: 600 !important;
     font-size: 18px;
-    /* identical to box height */
+    !* identical to box height *!
     color: #000000;
     text-transform: uppercase !important;
 }
@@ -186,7 +368,7 @@ hr{
     font-style: normal;
     font-weight: 400 !important;
     font-size: 16px;
-    /* identical to box height */
+    !* identical to box height *!
     color: #000000;
     text-transform: uppercase !important;
 }
@@ -208,7 +390,7 @@ hr{
     image-rendering: smooth;
 }
 
-/***************************** CONTENU PORTFOLIO ****************************/
+!***************************** CONTENU PORTFOLIO ****************************!
 .portfolioContent{
 
     padding-left: 25px;
@@ -219,7 +401,7 @@ hr{
     background: rgba(217, 217, 217, 0.2);
     border: 1px solid #000000;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-    /*border-radius: 0px 0px 0px 145px;*/
+    !*border-radius: 0px 0px 0px 145px;*!
 
 }
 .card-title1{
@@ -227,7 +409,7 @@ hr{
     font-style: normal;
     font-weight: 600 !important;
     font-size: 20px;
-    /* identical to box height */
+    !* identical to box height *!
     color: #000000;
 }
 .card-text1{
@@ -235,7 +417,7 @@ hr{
     font-style: normal;
     font-weight: 400 !important;
     font-size: 18px;
-    /* identical to box height */
+    !* identical to box height *!
     color: #000000;
 }
 
@@ -256,7 +438,7 @@ hr{
     background-color: black !important;
 }
 
-/**************** PARTIE CONTACT *******************************/
+!**************** PARTIE CONTACT *******************************!
 .blockprincipal{
     border: 1px solid #000000;
 
@@ -328,7 +510,7 @@ hr{
     display: inline-block;
     font-size: 17px;
     line-height: 20px;
-    text-decoration: none; /* remove underline from anchors */
+    text-decoration: none; !* remove underline from anchors *!
 
     font-family: Poppins;
     font-style: normal;
@@ -342,7 +524,7 @@ hr{
     font-style: normal;
     font-weight: 600 !important;
     font-size: 18px;
-    /* identical to box height */
+    !* identical to box height *!
     color: #000000 !important;
 }
 
@@ -360,7 +542,7 @@ label{
     font-style: normal;
     font-weight: 600 !important;
     font-size: 18px;
-    /* identical to box height */
+    !* identical to box height *!
     color: #000000;
 }
 input, textarea{
@@ -370,7 +552,7 @@ input, textarea{
     box-shadow: 1px 1px 2px #918f8f;
 }
 
-/********* PARTIE FOOTER *************/
+!********* PARTIE FOOTER *************!
 .footer {
     height: 75px;
     width: 100%;
@@ -385,11 +567,11 @@ input, textarea{
 
 
 
-/*****************ADAPTION AU PETIT ECRAN*****************************/
+!*****************ADAPTION AU PETIT ECRAN*****************************!
 
 @media  screen and (max-width: 450px) {
 
-    /***************************** CSS APPLIQUER A L'ACCUEIL ***********************************************/
+    !***************************** CSS APPLIQUER A L'ACCUEIL ***********************************************!
 
 .accueilbody{
     font-size: 100%;
@@ -418,7 +600,7 @@ input, textarea{
     box-shadow: 15px -15px 2px #D9D9D9;
 }
 
-/*CSS APROPOS */
+!*CSS APROPOS *!
 
 .contenuApropos{
     text-align: justify;
@@ -429,7 +611,7 @@ input, textarea{
     border-radius: 0px 0px 100px 0px;
 }
 
-/******** CONTENU COMPETENCE ***********/
+!******** CONTENU COMPETENCE ***********!
 .col1competence{
     display: none;
 }
@@ -438,17 +620,17 @@ input, textarea{
     display: none;
 }
 
-/************CONTENU CONTACT *********************/
+!************CONTENU CONTACT *********************!
 label{
     font-family: Poppins;
     font-style: normal;
     font-weight: 600 !important;
     font-size: 15px;
-    /* identical to box height */
+    !* identical to box height *!
     color: #000000;
 }
 .blockprincipal{
 display: none;
 }
 
-}
+}*/

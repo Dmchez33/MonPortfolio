@@ -52,11 +52,11 @@ body{
     font-size: 40px !important;
 }
 
-.nav-link.active {
+/*.nav-link.active {
     background-color: inherit !important;
     border-bottom: 2px solid #0075FF !important ;
     color: #0075FF !important;
-}
+}*/
 /*********************ACCUEIL**********************************/
 .imageProfil{
     width: 300px !important;
@@ -80,8 +80,9 @@ body{
     text-decoration: none !important;
     box-shadow: 0px 0px 2px #000000 !important;
     border: 1px solid rgba(0,0,0, 0.3) !important;
-    padding: 5px;
+    padding: 15px !important;
     color: white !important;
+    word-wrap: break-word;
 }
 
 .lientelecharcher{
@@ -118,6 +119,14 @@ body{
 .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: black !important;
 }
+.lienprojet{
+    padding: 5px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #0075FF;
+    border: 2px solid white;
+    box-shadow: inset 10px 5px 10px black ;
+}
 
 /****************************CONTACT*******************************************/
 .contactContent{
@@ -149,3 +158,45 @@ input, textarea{
     font-size: 16px;
 }
 /************************ ALERTE BOUTTON **************************************/
+/*
+#example {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+#example div {
+    width: 350px;
+    height: 80px;
+    margin: 100px auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    border: 3px solid #cccccc;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+*/
+
+/********* PARTIE FOOTER *************/
+ .footer {
+     height: 75px;
+     width: 100%;
+     border-top: 1px solid black;
+     background-color: #252A30;
+     color: white;
+     text-align: center;
+ }

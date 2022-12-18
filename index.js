@@ -16,7 +16,10 @@
     })
 
 })()
-
+function alertBox() {
+    el = document.getElementById("example");
+    el.style.visibility = el.style.visibility == "visible" ? "hidden" : "visible";
+}
 function sendMail(){
     var params = {
         nom: document.getElementById("nom").value,
@@ -35,7 +38,7 @@ function sendMail(){
             document.getElementById("objet").value = "";
             document.getElementById("message").value = "";
             console.log(res);
-            alertBox();
+            alert("Vos informations sont envoyées avec succes  je vous répondrai aussitôt que possible.");
 
         })
         .catch(err=>console.log(err));

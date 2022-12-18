@@ -32,14 +32,20 @@
     <div class="container-fluid">
         <!-- Code permettant de créer le logo -->
         <img class="navbar-brand" src="image/logo1.png" width="80" alt="mon_logo">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler visiblitybtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-list"></i>
         </button>
+        <!--CLOSE BOUTTON -->
+        <!--<button class="navbar-toggler visiblitybtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <i class="bi bi-x-square"></i>
+        </button>-->
 
         <!-- Le contenu du logo nav-pills -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mb-2 ms-auto mb-lg-0 nav-pills">
+            <ul class="navbar-nav mb-2 ms-auto mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#Accueil">Accueil</a>
                 </li>
@@ -61,8 +67,8 @@
     </div>
 </nav>
 <!-- ----------------------------------------- ACCUEIL ----------------------------------------------------------------- -->
-<hr id="Accueil">
-<div class="separateur" >
+
+<div class="separateur" id="Accueil">
 
 </div>
 <div class="Accueil">
@@ -85,7 +91,7 @@
             <div class="row mt-3">
                 <div class="d-grid gap-2 col-md-6 mx-auto ">
                     <button class="bntdownloadcv" type="submit">
-                        <a class="lientelecharcher" href="cv/cv_idrissa_dembele.pdf" download="cv_Idrissa_DEMBELE" target="_blank">
+                        <a class="lientelecharcher" href="cv/mon%20cv.pdf" download="cv_Idrissa_DEMBELE" target="_blank">
                             Télécharger CV </a>
                     </button>
                 </div>
@@ -146,8 +152,8 @@
 
 
 <!-- ----------------------------------------- COMPETENCES ----------------------------------------------------------------- -->
-<hr id="Competence">
-<div class="separateur" id="">
+
+<div class="separateur" id="Competence">
     <div class="competence">
         <div class="row">
             <h4 class="text-center my-2">MES COMPETENCES</h4>
@@ -287,13 +293,12 @@
                 </div>
             </div>
         </div>
-
     </div>
 
 </div>
 <!-------------------- PORTFOLIO ------------------------------------>
-<hr id="Portfolio">
-<div class="separateur">
+<hr >
+<div class="separateur" id="Portfolio">
 
 </div>
 <div class="portfolio">
@@ -317,7 +322,7 @@
                                 Center
                                 logs</p>
                             <div>
-                                <a href="#">
+                                <a href="https://github.com/BalloIbrahima/ErpOdkMobile.git" class="lienprojet">
                                     <i class="bi bi-link-45deg"></i> &nbsp; Lien Github
                                 </a>
 
@@ -335,6 +340,12 @@
                         <div class="col-md-6 p-4 ps-md-0 ">
                             <h5 class="mt-0 card-title1">Application web pour le tirage</h5>
                             <p class="card-text1">Création d'une interface pour le tirage au sort</p>
+                            <div>
+                                <a href="https://github.com/Dmchez33/FreeTirage.git" class="lienprojet">
+                                    <i class="bi bi-link-45deg"></i> &nbsp; Lien Github
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -348,6 +359,12 @@
                             <h5 class="mt-0 card-title1">Spring Security</h5>
                             <p class="card-text1">Securisation de son backend à l'aide de Spring et Monitoring
                                 des</p>
+                            <div>
+                                <a href="https://github.com/Dmchez33/secucomProjetSpringSecurity.git" class="lienprojet">
+                                    <i class="bi bi-link-45deg"></i> &nbsp; Lien Github
+                                </a>
+
+                            </div>
 
                         </div>
                     </div>
@@ -361,6 +378,12 @@
                             <h5 class="mt-0 card-title1">Site Artisanal du Mali</h5>
                             <p class="card-text1">Un site pour montrer le savoir faire artisanal du Mali avec du
                                 e-commerce</p>
+                            <div>
+                                <a href="http://art-mali.epizy.com/" class="lienprojet">
+                                    <i class="bi bi-link-45deg"></i> &nbsp; Lien site
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -372,6 +395,12 @@
                         <div class="col-md-6 p-4 ps-md-0 ">
                             <h5 class="mt-0 card-title1">Site web sur l'environnement</h5>
                             <p class="card-text1">Un site web en CMS sur l'environnement</p>
+                            <div>
+                                <a href="http://environnement-mali.epizy.com/" class="lienprojet">
+                                    <i class="bi bi-link-45deg"></i> &nbsp; Lien du site
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -384,6 +413,12 @@
                         <div class="col-md-6 p-4 ps-md-0">
                             <h5 class="mt-0 card-title1">TikTok clone</h5>
                             <p class="card-text1">A la découverte de SDK flutter en clonant TikTok</p>
+                            <div>
+                                <a href="https://github.com/Dmchez33/tikodc.git" class="lienprojet">
+                                    <i class="bi bi-link-45deg"></i> &nbsp; Lien Github
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -405,8 +440,8 @@
 </div>
 
 <!-------------------- CONTACT ------------------------------------>
-<hr id="Contact">
-<div class="separateur">
+<hr >
+<div class="separateur" id="Contact">
 
     <div class="contact container">
         <h4 class="text-center my-2">CONTACT</h4>
@@ -447,7 +482,7 @@
                     Adresse
                 </div>
                 <div class="iconTest">
-                    P:345, R:56, N'tabakoro/Bamako, MALI
+                    P:265, R:454, N'tabakoro/Bamako, MALI
                 </div>
 
             </div>
@@ -533,517 +568,21 @@
     </div>
 </div>
 
-
-<!-- ----------------------------------------- PORTFOLIO ----------------------------------------------------------------- -->
-
-<!-- BOUTTON POUR SCROLLER VERS LE HAUT -->
-
-<!--<div onclick="topFunction()" id="btnscrolhaut" title="Aller vers le haut"><i class="bi bi-chevron-up"></i></div>-->
-
-<!-- SECTION ACCUEIL -->
-<!--
-<div class="contentBody" data-bs-spy="scroll" data-bs-target="#navbar-example2"
-     data-bs-smooth-scroll="true" tabindex="0">
-
-
-    <div class="separateur" id="Accueil">
+<!--<div id="example">
+    <div>
+        <p>Vos informations sont envoyées avec succes <br> je vous répondrai aussitôt que possible.</p>
+        <button>
+            <a href="#" onclick="alertBox()">OK</a>
+        </button>
 
     </div>
-    <div class="container">
-
-        <div class="row">
-            <div class="col">
-
-                <div class="text-center ">
-                    <img src="image/profil1.png" class="imageContent" alt="mon photo portfolio">
-                </div>
-
-            </div>
-            <div class="col">
-                <div class="card accueil mt-3">
-                    <div class="card-body ">
-                        <h5 class="card-title accueilTitre">Salut tout le monde</h5>
-                        <p class="card-text accueilbody">Je suis <span class="nomColor">DEMBELE Idrissa</span> développeur fullstack junior et
-                            détenteur
-                            d'une
-                            licence en Informatique et Télécommunication.
-                        </p>
-                    </div>
-                </div>
-                <hr class="hr">
-            </div>
-
-        </div>
-    </div>
--->
-
-<!--contenu du section SEPARATEUR de moi-->
-<!--<div class="separateur">
-
-</div>-->
-
-<!--contenu du section apropos de moi-->
-<!--<hr id="Apropos">
-<div class="apropos container">
-
-    <div class="d-flex justify-content-start ">
-        <div class="p-2 titreMenu">
-            A PROPOS DE MOI
-        </div>
-    </div>
-    <div class="contenuApropos">
-        <div class="row">
-            <div class="col">
-
-                Après une formation dans le Web et mobile, j'ai acquis de nombreuses compétences et connaissances
-                grâce
-                à des projets réalisés dans différents langages de programmation.
-                Consciente du chemin à parcourir pour m'améliorer, je suis plus que jamais motivée à apprendre pour
-                devenir meilleure.
-                Ayant toujours été passionnée par l'informatique et les nouvelles technologies, tout en prenant en
-                compte que notre métier est en perpétuelle évolution, j'ai notamment appris à toujours repousser les
-                limites de mes connaissances afin d'en apprendre tous les jours un peu plus.
-
-
-            </div>
-        </div>
-    </div>
-</div>-->
-
-<!--contenu du section SEPARATEUR de moi-->
-<div class="separateur">
-
-</div>
-
-
-<!--contenu du section COMPETENCES de moi-->
-<!--<hr id="Competence">
-<div class="competence container">
-
-    <div class="d-flex justify-content-start ">
-        <div class="p-2 titreMenu">
-            COMPETENCES
-        </div>
-    </div>
-    <div class="contenuCompetence">
-        <div class="row">
-            <div class="descriptioncompetence">
-                Elles sont en constantes améliorations car pour moi la joie de ce métier fait que l’on en
-                apprend
-                tous les jours, d’autant plus en étant impliqué, curieux et passionné.
-            </div>
-            <div class="col col1competence">
-                <div class="row">
-                    <div class="col-md-6">
-                        &lt;!&ndash; CONTENTU FRONT END&ndash;&gt;
-                        <div class="contentBack">
-                            <div CLASS="text-center back p-2">BACK-END</div>
-
-                            <div class="mt-1">JAVA</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 45%" aria-valuenow="45" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-
-                            <div class="mt-1">PHP</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 40%" aria-valuenow="40" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-
-                            <div class="mt-1">NodJs</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-
-                            <div class="mt-1">Spring Boot</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        &lt;!&ndash; CONTENTU FRONT END&ndash;&gt;
-                        <div class="contentFront">
-
-                            <div class="text-center front p-2">FRONT-END</div>
-
-                            <div class="mt-1">HTML/CSS</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 70%" aria-valuenow="70" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-
-                            <div class="mt-1">JAVASCRIPT/TYPESCRIPT</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 45%" aria-valuenow="45" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-
-                            <div class="mt-1">DART</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 35%" aria-valuenow="35" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-
-                            <div class="mt-1">BOOTSTRAP</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 70%" aria-valuenow="70" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-
-                            <div class="mt-1">ANGULAR</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 60%" aria-valuenow="60" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-
-                            <div class="mt-1">IONIC</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 60%" aria-valuenow="60" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-
-                            <div class="mt-1">FLUTTER</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 40%" aria-valuenow="40" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        &lt;!&ndash; CONTENTU CMS&ndash;&gt;
-                        <div class="contentCMS">
-                            <div CLASS="text-center cms p-2">CMS</div>
-
-                            <div class="mt-1">WORDPRESS</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 70%" aria-valuenow="70" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        &lt;!&ndash; CONTENTU DIVERS&ndash;&gt;
-                        <div class="contentDIVERS">
-                            <div CLASS="text-center p-2 divers">DIVERS</div>
-
-                            <div class="mt-1">WINDOWS</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-
-                            <div class="mt-1">LINUX</div>
-                            <div class="progress bg-info1">
-                                <div class="progress-bar bg-dark" role="progressbar" aria-label="Success example"
-                                     style="width: 45%" aria-valuenow="45" aria-valuemin="0"
-                                     aria-valuemax="100"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="col ">
-                <div class="col2competence">
-                    <img src="image/Frame%201.svg" width="300" alt="image de mon cv">
-
-                </div>
-                <div class="d-flex justify-content-center">
-
-                    <div class="d-grid gap-2 col-6 mx-auto">
-                        <button class="btn buttonTelecharger" type="button">
-                        <a class="lientelecharcher" href="cv/cv_idrissa_dembele.pdf" download="cv_Idrissa_DEMBELE" target="_blank">
-                            Télécharger CV </a>
-                        </button>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-</div>
--->
-
-<!--contenu du section SEPARATEUR de moi-->
-<!--<div class="separateur">
-
-</div>-->
-
-
-<!--contenu du section PORTFOLIO de moi-->
-<!--<hr id="Portfolio">
-<div class="portfolio container">
-
-    <div class="d-flex justify-content-start ">
-        <div class="p-2 titreMenu">
-            PORTFOLIO
-        </div>
-    </div>
-    <div class="portfolioContent">
-        <div class="descriptionportfolio">
-            <p>
-                Ci-dessous, quelques exemples de réalisations effectuées durant la formation, le stage et plus
-                encore :
-            </p>
-        </div>
-
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-
-                    <div class="row bg-white position-relative">
-                        <div class="col-md-6 mb-md-0 p-md-4">
-                            <img src="image/erp3.png" class="card-img-top" alt="image1">
-                        </div>
-                        <div class="col-md-6 p-4 ps-md-0">
-                            <h5 class="mt-0 card-title1">ERP ODC</h5>
-                            <p class="card-text1">Un outil de gestion des activités et salles de Orange Digital
-                                Center
-                                logs</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="carousel-item">
-                    <div class="row  bg-white position-relative">
-                        <div class="col-md-6 mb-md-0 p-md-4">
-                            <img src="image/freetirage3.png" class="card-img-top" alt="image2">
-                        </div>
-                        <div class="col-md-6 p-4 ps-md-0">
-                            <h5 class="mt-0 card-title1">Application web pour le tirage</h5>
-                            <p class="card-text1">Création d'une interface pour le tirage au sort</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="row  bg-white position-relative">
-                        <div class="col-md-6 mb-md-0 p-md-4">
-                            <img src="image/jwt.jpeg" class="card-img-top" alt="image3">
-                        </div>
-                        <div class="col-md-6 p-4 ps-md-0">
-                            <h5 class="mt-0 card-title1">Spring Security</h5>
-                            <p class="card-text1">Securisation de son backend à l'aide de Spring et Monitoring
-                                des</p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row  bg-white position-relative">
-                        <div class="col-md-6 mb-md-0 p-md-4">
-                            <img src="image/artmali.png" class="card-img-top" alt="image4">
-                        </div>
-                        <div class="col-md-6 p-4 ps-md-0">
-                            <h5 class="mt-0 card-title1">Site Artisanal du Mali</h5>
-                            <p class="card-text1">Un site pour montrer le savoir faire artisanal du Mali avec du
-                                e-commerce</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row  bg-white position-relative">
-                        <div class="col-md-6 mb-md-0 p-md-4">
-                            <img src="image/enviro2.png" class="card-img-top" alt="image5">
-                        </div>
-                        <div class="col-md-6 p-4 ps-md-0">
-                            <h5 class="mt-0 card-title1">Site web sur l'environnement</h5>
-                            <p class="card-text1">Un site web en CMS sur l'environnement</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="row  bg-white position-relative">
-                        <div class="col-md-6 mb-md-0 p-md-4">
-                            <img src="image/flutter.jpeg" class="card-img-top" alt="image6">
-                        </div>
-                        <div class="col-md-6 p-4 ps-md-0">
-                            <h5 class="mt-0 card-title1">TikTok clone</h5>
-                            <p class="card-text1">A la découverte de SDK flutter en clonant TikTok</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-    </div>
-
-</div>-->
-
-<!--contenu du section SEPARATEUR de moi-->
-<!--<div class="separateur">
-
-</div>-->
-
-
-<!--contenu du section CONTACT de moi-->
-<!--<hr id="Contact">
-<div class="contact container">
-    <div class="d-flex justify-content-start ">
-        <div class="p-2 titreMenu">
-            CONTACTEZ-MOI
-        </div>
-    </div>
-
-    <div class="contactContent border mt-1 bg-light">
-        <div class="infonContact">
-            N'hésitez pas à me contacter, je vous répondrai dans les plus brefs délais.
-        </div>
-        <div class="row">
-            <div class="col mt-5">
-                <div class="blockprincipal p-2 ">
-                    <a href="https://github.com/Dmchez33" class="github btn1">
-                        <i class="bi bi-github"></i> Github
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/idrissa-demb%C3%A9l%C3%A9-2a516724a/"
-                       class="linkedin btn1">
-                        <i class="bi bi-linkedin"></i> Linkedin
-                    </a>
-                    <a href="#" class="telephone btn1">
-                        <i class="bi bi-telephone-fill"></i> +22383252448
-                    </a>
-                    &lt;!&ndash;<a href="#" class="fb btn1">
-                        <i class="bi bi-facebook"></i> facebook
-                    </a>&ndash;&gt;
-                    <a href="#" class="twitter btn1">
-                        <i class="bi bi-twitter"></i> Twitter
-                    </a>
-
-
-                </div>
-            </div>
-
-            <div class="col-md-6 contactForm">
-
-                <form action="javascript:sendMail();" class="row g-3 needs-validation mt-3" novalidate>
-                    <div class="col-md-6">
-                        <label for="nom" class="form-label">Nom *</label>
-                        <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom" required>
-                        <div class="invalid-feedback">
-                            Veuillez entrer un nom validé.
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="prenom" class="form-label">Prénom *</label>
-                        <input type="text" class="form-control" id="prenom" placeholder="Entrez votre prénom"
-                               required>
-                        <div class="invalid-feedback">
-                            Veuillez entrer un prénom validé.
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="email" class="form-label">E-mail *</label>
-                        <input type="email" class="form-control" id="email" placeholder="Entrez votre e-mail"
-                               required>
-                        <div class="invalid-feedback">
-                            Veuillez entrer un E-mail validé.
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="telephone" class="form-label">Téléphone *</label>
-                        <input type="tel" class="form-control" id="telephone"
-                               placeholder="Entrez votre numéro de téléphone" required>
-                        <div class="invalid-feedback">
-                            Veuillez entrer un Numéro de téléphone validé.
-                        </div>
-                    </div>
-
-                    <div class="col-12">
-                        <label for="objet" class="form-label">Objet *</label>
-                        <input type="text" class="form-control" id="objet" placeholder="Entrez votre objet"
-                               required>
-                        <div class="invalid-feedback">
-                            Veuillez entrer un Objet validé.
-                        </div>
-                    </div>
-
-                    <div class="col-12 mb-3">
-
-                        <label for="message" class="form-label">Message *</label>
-                        <textarea class="form-control" id="message" rows="3" placeholder="Entrez votre message"
-                                  required></textarea>
-
-                        <div class="invalid-feedback">
-                            Veuillez entrer un Objet validé.
-                        </div>
-                    </div>
-
-
-                    <div class="col-12">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                            <label class="form-check-label" for="invalidCheck">
-                                En soumettant ce formulaire, j'accepte que mes données personnelles soient utilisées
-                                pour me recontacter. Aucun autre traitement ne sera effectué avec mes informations.
-                            </label>
-                            <div class="invalid-feedback">
-                                Vous devez accepter avant de soumettre.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-
-                        <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn buttonTelecharger" type="submit">
-                                Envoyer
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-        </div>
-    </div>
-</div>
-</div>-->
-<!--contenu du section SEPARATEUR de moi-->
-<!--<div class="separateur">
-
 </div>-->
 
 <!-- FOOTER PARTIE -->
-<!--<div class="footer">
+
+<div class="footer">
     <p class="p-4">© Copyright 2022 - Idrissa DEMBELE. Tous droits réservés.</p>
-</div>-->
+</div>
 
 <script src="index.js">
 
